@@ -51,7 +51,7 @@ public class StepDefinitions {
         actionwords.iFillTheWaterTank();
     }
 
-    @Given("^I take \"(.*)\" coffees$")
+    @When("^I take \"(.*)\" coffees$")
     public void iTakeCoffeeNumberCoffees(int coffeeNumber) {
         actionwords.iTakeCoffeeNumberCoffees(coffeeNumber);
     }
